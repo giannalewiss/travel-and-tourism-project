@@ -1,0 +1,158 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #062925;
+    --primary-color-light: #044a42;
+    --secondary-color: #3a9188;
+    --secondary-color-light: #b8e1dd;
+    --extra-light: #66e1b4;
+    --white: #ffffff;
+    /* --max-width: 1200px; */
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+/* body{
+    background: url("hero_sec.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    
+} */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: auto;
+
+}
+
+.navbar .logo{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600; 
+}
+.navbar a{
+    color: var(--primary-color-light);
+    text-decoration: none;
+    transition: 0.2s ease;
+    list-style-type: none;
+
+}
+.navbar a:hover{
+    color: var(--extra-light);
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.home{
+    background-image: url("hero_sec.jpg");
+    height: 100vh;
+    max-width: var(--max-width);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.home-title{
+    color: var(--primary-color-light);
+    font-weight: 600;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.home-sub-heading{
+    margin: 20px 0;
+    font-size: 20px;
+    color: var(--primary-color)
+}
+
+button{
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+    background-color: var(--secondary-color-light);
+}
+
+button:hover{
+    color: var(--primary-color);
+}
+
+/* .about .row{ 
+    display: flex; 
+    align-items: center; 
+    background-color: #f8f9fa; 
+    flex-wrap: wrap;
+ } 
+.about .row .image { 
+    flex: 1 1 45rem;
+    width: 50px; 
+    height: 50px; 
+    
+} 
+.about .row .image img{}
+.about-para { 
+    font-size: 16px; 
+    line-height: 1.5; 
+    
+} 
+.about-btn { 
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+   
+} 
+.about-btn:hover {
+    background-color: #0056b3; */
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
