@@ -1,4 +1,5 @@
 # travel-and-tourism-project
+The website employs HTML for structure, CSS for styling, and JavaScript for interactive functionalities.
 
 1. **Navigation Bar**:
    - HTML: Contains logo, home, about, bookings, tours, blogs, contact links within a `<div>` container.
